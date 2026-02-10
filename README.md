@@ -27,7 +27,8 @@ Most multimodal systems rely on massive compute or pre-aligned models. This proj
 > *Note: The looping text is a byproduct of GPT-2 Small’s limited context window and raw greedy search; it confirms the "brain" is the bottleneck, not the "eyes."*
 
 ---
-## 🧠 Deep Dive: The Data Flow
+##  Deep Dive: The Data Flow
+
 As detailed in the **Architecture Diagram**:
 
 1.  **Extraction:** Image features are extracted as a 1024-d sequence from the ViT.
